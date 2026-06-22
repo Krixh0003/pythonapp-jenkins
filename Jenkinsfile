@@ -12,7 +12,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/yourusername/python-app.git'
+                url: 'https://github.com/Krixh0003/pythonapp-jenkins'
             }
         }
 
